@@ -25,5 +25,3 @@ def check_ip():
         return {"ip_address": ip_address, "country_code": data.get("country")}
     else:
         raise ValueError("Lỗi khi truy cập API ipinfo.io")
-
-if __name__ == "__main__":
