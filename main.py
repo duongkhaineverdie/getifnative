@@ -27,4 +27,3 @@ def check_ip():
         raise ValueError("Lỗi khi truy cập API ipinfo.io")
 
 if __name__ == "__main__":
-    app.run(debug=True)
